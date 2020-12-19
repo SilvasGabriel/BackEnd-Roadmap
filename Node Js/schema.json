@@ -1,0 +1,52 @@
+{
+	"postagem": {
+		"_id": {
+			"primaryKey": true,
+			"type": "Object",
+			"required": true
+		},
+		"conteudo": {
+			"type": "Array",
+			"required": true
+		},
+		"tag": {
+			"type": "Array",
+			"required": true
+		},
+		"titulo": {
+			"type": "string",
+			"required": true
+		}
+	},
+	"usuario": {
+		"_id": {
+			"primaryKey": true,
+			"type": "Object",
+			"required": true
+		},
+		"nomeusuario": {
+			"type": "string",
+			"required": true
+		},
+		"senha": {
+			"type": "string",
+			"required": true
+		},
+		"roles": {
+			"type": "Array",
+			"required": true
+		},
+		"email": {
+			"type": "string",
+			"required": true
+		},
+		"telefone": {
+			"type": "string",
+			"required": true
+		},
+		"tipousuario": {
+			"type": "Array",
+			"required": true
+		}
+	}
+}
